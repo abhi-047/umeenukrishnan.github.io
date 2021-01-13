@@ -1,0 +1,21 @@
+title: U. Meenu Krishnan
+author: U. Meenu Krishnan
+email: meenukris130993@gmail.com
+description: Researcher, Indian Institute of Technology Roorkee
+url: "https://umeenukrishnan.github.io" 
+
+# Build settings
+remote_theme: umeenukrishnan/moving
+plugins:
+  - jekyll-feed
+
+moving:
+  about_you: Believe in you
+  date_format: "%b %d"
+  back_to: "Home" 
+  social_links:
+    rss: RSS
+    github:  umeenukrishnan
+    facebook: Meenu Krishnan
+    linkedin: Meenu Krishnan
+
