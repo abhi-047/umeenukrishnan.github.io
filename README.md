@@ -1,1 +1,0 @@
-# umeenukrishnan.github.io
