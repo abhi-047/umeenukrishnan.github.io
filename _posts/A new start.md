@@ -1,0 +1,8 @@
+# A new start
+
+I am a kind of girl who love to write and easily get motivated in my life by my ow thoughts. Its very important to write my experience and learnings somewhere. I basically a research scholar at Civil engineering department, IIT Roorkee. 
+
+My vision towards life changed after joining in this institute, not because of this institute, but I think its because of my team, each and every lab member is one of a kind… I learned many things and I was lucky enough to join this lab. One of my senior  more like my elder brother guided me and helped me to solve almost all my problems. 
+
+Yes you got me right, he suggested me about this platform and I was excited to make use of this new platform. Thus I have decided to make use of this platform to share my learnings to the world.
+
