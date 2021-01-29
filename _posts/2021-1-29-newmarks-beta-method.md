@@ -53,12 +53,10 @@ $$
    $$
    \hat{k}_{i}=k_{i}+\frac{\nu}{\beta \Delta C} C+\frac{1}{\beta(\Delta t)^{2}} m
    \\
-   \begin{aligned}
-   \Delta \dot{u}_{i} &=\frac{\gamma}{\beta \Delta t} \Delta u_{i}-\frac{\gamma}{\beta} \dot{u}_{i}+\Delta t\left(1-\frac{\gamma}{2 \beta}\right) \ddot{u}_{i}
+   \Delta \dot{u}_{i} =\frac{\gamma}{\beta \Delta t} \Delta u_{i}-\frac{\gamma}{\beta} \dot{u}_{i}+\Delta t\left(1-\frac{\gamma}{2 \beta}\right) \ddot{u}_{i}
    \\
    
-   \Delta \ddot{u}_{i} &=\frac{1}{\beta(\Delta t)^{2}} \Delta u_{i}-\frac{1}{\beta \cdot \Delta t} \dot{u}_{i}-\frac{1}{2 \beta} \ddot{u}_{i} . .
-   \end{aligned}
+   \Delta \ddot{u}_{i} =\frac{1}{\beta(\Delta t)^{2}} \Delta u_{i}-\frac{1}{\beta \cdot \Delta t} \dot{u}_{i}-\frac{1}{2 \beta} \ddot{u}_{i} 
    $$
    
 
