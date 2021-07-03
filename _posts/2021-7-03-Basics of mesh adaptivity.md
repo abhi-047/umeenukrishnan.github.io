@@ -24,7 +24,7 @@ In any adative mesh refinement scheme, there are five steps involved. They are :
 
 Consider a 1D problem to show the different steps of an adaptivity sheme with the help of a python code.
 
-1. Import the different packages
+* Import the different packages
 
 ```python
 from scipy.integrate import quad
@@ -35,7 +35,7 @@ from math import atan, pi, sin, sqrt,exp
 import time
 ```
 
-2. Different parameters required for the study .
+* Different parameters required for the study .
 
 ```python
 AREA,L2 = "area","l2"
@@ -45,13 +45,13 @@ toll = 1e-3
 max_num_refinement = 15     # the maximum allowed number of refinement
 ```
 
-3. Define the element. For this study, initially we are selecting 1 element with 2 nodes.
+* Define the element. For this study, initially we are selecting 1 element with 2 nodes.
 
 ```python
 node_cord = [-pi,pi]
 ```
 
-4. Next is to define the function which will evaluate the exact solution.
+* Next is to define the function which will evaluate the exact solution.
 
 ```python
 def u_exact(x):
@@ -59,7 +59,7 @@ def u_exact(x):
     return value
 ```
 
-5. Define the approximate solution 
+* Define the approximate solution 
 
 ```python
 def u_approx(x):
@@ -70,7 +70,7 @@ def u_approx(x):
     return (N1*u1 + N2*u2)
 ```
 
-6. Estimate the error
+* Estimate the error
 
 ```python
 def err_function(x):
@@ -93,7 +93,7 @@ def estimate_error(node_cord,ele_num):
     return err
 ```
 
-7. Mark the elements
+* Mark the elements
 
 ```python
 def mark_ele_refine(err_list):
@@ -106,7 +106,7 @@ def mark_ele_refine(err_list):
     return marker
 ```
 
-8. Refine the marked elements
+* Refine the marked elements
 
 ```python
 def refine_ele(node_cord,marker):
@@ -117,7 +117,7 @@ def refine_ele(node_cord,marker):
     return node_cord
 ```
 
-9. Mesh adaptivity loop
+* Mesh adaptivity loop
 
 ```python
 for i in range(max_num_refinement):
@@ -136,7 +136,7 @@ for i in range(max_num_refinement):
 			plot(node_cord,[u_exact(x) for x in node_cord], marker = "o")
 ```
 
-10. Results of the study for the first 5 steps:
+* Results of the study for the first 5 steps:
 
 ![](../assets/images/Artboard8.png)
 
