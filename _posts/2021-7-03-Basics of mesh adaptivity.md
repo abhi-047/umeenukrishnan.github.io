@@ -133,19 +133,11 @@ for i in range(max_num_refinement):
     print("elements marked ------",marker)
     print("nodal coordinates ----",node_cord)
     node_cord = refine_ele(node_cord,marker)
-		plot(node_cord,[u_exact(x) for x in node_cord], marker = "o")
+			plot(node_cord,[u_exact(x) for x in node_cord], marker = "o")
 ```
 
 10. Results of the study for the first 5 steps:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9ca8691a-19f6-4b6b-a2e3-909de6643a70/Screenshot_2021-07-02_at_10.03.15_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9ca8691a-19f6-4b6b-a2e3-909de6643a70/Screenshot_2021-07-02_at_10.03.15_PM.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6b682357-c798-44ab-b6bb-03435fbc7ac5/Screenshot_2021-07-02_at_10.03.39_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6b682357-c798-44ab-b6bb-03435fbc7ac5/Screenshot_2021-07-02_at_10.03.39_PM.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c616f721-2972-45ec-b474-868dc442cce2/Screenshot_2021-07-02_at_10.03.53_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c616f721-2972-45ec-b474-868dc442cce2/Screenshot_2021-07-02_at_10.03.53_PM.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d9d53f84-7bab-48f2-acaf-52836922621b/Screenshot_2021-07-02_at_10.04.05_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d9d53f84-7bab-48f2-acaf-52836922621b/Screenshot_2021-07-02_at_10.04.05_PM.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f61d5503-15db-42c7-b6c4-bd8b68953edd/Screenshot_2021-07-02_at_10.04.15_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f61d5503-15db-42c7-b6c4-bd8b68953edd/Screenshot_2021-07-02_at_10.04.15_PM.png)
+![](../assets/images/Artboard8.png)
 
 From the above plots it is clear that extra node is inserted where there is a change in curvature, i., the error will be more in the curved regions. To get a smooth curve the nodes should be close to each other that is the reason the nodes are inserted in those regions. Similarly if you implement mesh adaptivity for any problem, the mesh will be adaptively refined where the value of error indicator is more or more sensitive regions.
