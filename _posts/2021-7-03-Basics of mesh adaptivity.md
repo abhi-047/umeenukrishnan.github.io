@@ -138,6 +138,6 @@ for i in range(max_num_refinement):
 
 * Results of the study for the first 5 steps:
 
-![Artboard8](../assets/images/Artboard8.png)
+![](../assets/images/image-1234.png)
 
 From the above plots it is clear that extra node is inserted where there is a change in curvature, i., the error will be more in the curved regions. To get a smooth curve the nodes should be close to each other that is the reason the nodes are inserted in those regions. Similarly if you implement mesh adaptivity for any problem, the mesh will be adaptively refined where the value of error indicator is more or more sensitive regions.
