@@ -13,9 +13,16 @@ Daily we come across many new things.  We learn from everything and it is very d
 - Step 3 : Third step is to record your voice. For this purpose I use <u>Audacity</u> to record the voice. For editing I follow this four easy steps to enhance the quality of my recording. 
 
   - Whenever you are starting with your recording, just record the silence for first 5 seconds, so that the additional noise can be recorded then record your audio. 
+
   - Go to Effect --- Noise Reduction. First follow the step 1 to Get Noise Profile, then select the initial 5 seconds of the audio. Then go to step 2 and do the following settings. 
 
-  <img src="/Users/meenu/Library/Application Support/typora-user-images/Screenshot 2021-08-10 at 3.30.45 PM.png" alt="Screenshot 2021-08-10 at 3.30.45 PM" style="zoom:50%;" />
+    ​		Noise reduction : 12 dB
+
+    ​		Sensitivity : 6.00
+
+    ​		Frequency smoothing : 3
+
+    ​		Noise :  Reduce
 
   - The next step is to select the complete audio and Go to Effect --- Compressor and fix the threshold to -18.
   - Next step is to Go to Effect --- Limiter --- Change the type to Hard Limiter. And fix the hard limiter level to -4 dB.
