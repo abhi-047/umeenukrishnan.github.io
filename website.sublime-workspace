@@ -248,15 +248,83 @@
 	"buffers":
 	[
 		{
-			"file": "tags.html",
+			"file": "projects.md",
 			"settings":
 			{
-				"buffer_size": 632,
+				"buffer_size": 50,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			},
 			"undo_stack":
 			[
+				[
+					3,
+					1,
+					"insert",
+					{
+						"characters": "Load"
+					},
+					"BAAAACMAAAAAAAAAJAAAAAAAAAAAAAAAJAAAAAAAAAAlAAAAAAAAAAAAAAAlAAAAAAAAACYAAAAAAAAAAAAAACYAAAAAAAAAJwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAIwAAAAAAAAAjAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					4,
+					1,
+					"insert",
+					{
+						"characters": "ing"
+					},
+					"AwAAACcAAAAAAAAAKAAAAAAAAAAAAAAAKAAAAAAAAAApAAAAAAAAAAAAAAApAAAAAAAAACoAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAJwAAAAAAAAAnAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					5,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAACoAAAAAAAAAKwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAKgAAAAAAAAAqAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					7,
+					1,
+					"insert",
+					{
+						"characters": "Still"
+					},
+					"BQAAACMAAAAAAAAAJAAAAAAAAAAAAAAAJAAAAAAAAAAlAAAAAAAAAAAAAAAlAAAAAAAAACYAAAAAAAAAAAAAACYAAAAAAAAAJwAAAAAAAAAAAAAAJwAAAAAAAAAoAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAIwAAAAAAAAAjAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					8,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAACgAAAAAAAAAKQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAKAAAAAAAAAAoAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					9,
+					1,
+					"right_delete",
+					null,
+					"AQAAACkAAAAAAAAAKQAAAAAAAAABAAAATA",
+					"AQAAAAAAAAABAAAAKQAAAAAAAAApAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					10,
+					1,
+					"insert",
+					{
+						"characters": "l"
+					},
+					"AQAAACkAAAAAAAAAKgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAKQAAAAAAAAApAAAAAAAAAAAAAAAAAPC/"
+				]
 			]
 		}
 	],
@@ -356,13 +424,16 @@
 	"expanded_folders":
 	[
 		"/D/Codes/Meenu/umeenukrishnan.github.io",
-		"/D/Codes/Meenu/umeenukrishnan.github.io/_posts"
+		"/D/Codes/Meenu/umeenukrishnan.github.io/_layouts"
 	],
 	"file_history":
 	[
+		"/D/Codes/Meenu/umeenukrishnan.github.io/_layouts/home.html",
+		"/D/Codes/Meenu/umeenukrishnan.github.io/projects.md",
+		"/D/Codes/Meenu/umeenukrishnan.github.io/_posts/2021-1-13-new-blog.md",
+		"/D/Codes/Meenu/umeenukrishnan.github.io/tags.html",
 		"/D/Codes/Meenu/umeenukrishnan.github.io/_posts/2021-1-29-newmarks-beta-method.md",
 		"/D/Codes/Meenu/umeenukrishnan.github.io/_posts/2021-1-28-structured-and-unstructured-mesh.md",
-		"/D/Codes/Meenu/umeenukrishnan.github.io/_posts/2021-1-13-new-blog.md",
 		"/D/Codes/Meenu/umeenukrishnan.github.io/_posts/2021-8-10-Steps-to-make-a-video.md",
 		"/D/Codes/Meenu/umeenukrishnan.github.io/_posts/2021-8-09-How-to-add-nomenclature-in-latex.md",
 		"/D/Codes/Meenu/umeenukrishnan.github.io/_posts/2021-7-03-Basics of mesh adaptivity.md",
@@ -484,10 +555,7 @@
 		"/home/plk/Dropbox/Philip/topology-vibration/1.paper/sections/2.0.formulation/2.5.total_energy.tex",
 		"/home/plk/Dropbox/Philip/topology-vibration/1.paper/sections/2.0.formulation/2.4.external_energy.tex",
 		"/home/plk/Dropbox/Philip/topology-vibration/1.paper/sections/2.0.formulation/2.3.dissipation_energy.tex",
-		"/home/plk/Dropbox/Philip/topology-vibration/1.paper/sections/2.0.formulation/2.2.potential_energy.tex",
-		"/home/plk/Dropbox/Philip/topology-vibration/1.paper/topology-vibration.pdf",
-		"/home/plk/Dropbox/Philip/topology-vibration/1.paper/sections/2.0.formulation/2.1.kinetic_energy.tex",
-		"/home/plk/Dropbox/Philip/topology-vibration/1.paper/sections/2.0.formulation/2.0.formulation.tex"
+		"/home/plk/Dropbox/Philip/topology-vibration/1.paper/sections/2.0.formulation/2.2.potential_energy.tex"
 	],
 	"find":
 	{
@@ -528,27 +596,25 @@
 			[
 				{
 					"buffer": 0,
-					"file": "tags.html",
+					"file": "projects.md",
 					"selected": true,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 632,
+						"buffer_size": 50,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								454,
-								454
+								42,
+								42
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
