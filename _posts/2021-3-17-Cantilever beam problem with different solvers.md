@@ -2,6 +2,8 @@
 layout: post
 title: "Cantilever beam problem with different solvers"
 categories: FEniCS
+tag: 
+  - FEniCS
 ---
 
 This folder contains the python script for a cantilever beam problem. Different solvers    are tested for the same problem. Check this link ("https://www.mcs.anl.gov/petsc/documentation/linearsolvertable.html") to know more about different solvers available which we can directly use for easy and efficient computation.  

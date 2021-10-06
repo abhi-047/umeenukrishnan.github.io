@@ -2,6 +2,9 @@
 layout: post
 title: "Structured and Unstructured Mesh"
 categories: Gmsh
+tag: 
+  - Gmsh
+---
 ---
 
 In our work for finite element analysis, we use two types of mesh namely structured and unstructured mesh. We use Gmsh as a tool for  mesh generation. Gmsh is a open- source 3D finite element mesh generator with a built-in CAD engine and post-processor. It is very user friendly and has a very good visualisation capabilities.
