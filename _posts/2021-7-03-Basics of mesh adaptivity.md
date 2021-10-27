@@ -2,6 +2,8 @@
 layout: post
 title: "Basics of Mesh Adaptivity"
 categories: FEniCS, Adaptivity
+tag: 
+  - FEniCS
 ---
 
 Adaptive mesh refinement is an extraordinary methd of adaptively refining the mesh to enhance the accuracy of the solution within a certain sensitive regions in the domain.

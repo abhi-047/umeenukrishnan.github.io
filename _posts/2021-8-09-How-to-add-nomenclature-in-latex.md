@@ -2,6 +2,8 @@
 layout: post
 title: "How to add nomenclature in research article using Latex"
 categories: Latex
+tag: 
+  - Latex
 ---
 
 In a researchers life it is very important to have an efficient tool for article writing. We use Latex for the same. Latex is used for the production of high quality technical and scientific documentation.

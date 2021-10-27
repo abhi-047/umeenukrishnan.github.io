@@ -2,6 +2,8 @@
 layout: post
 title: "Steps I follow to document my learning"
 categories: Video, miscellaneous
+tag: 
+  - misc
 ---
 
 Daily we come across many new things.  We learn from everything and it is very difficult to store everything in your mind. Also I believe it is very important to share your learnings with other fellows. So for this as a solution I try to journal or make short videos. In this article I will share the steps and tools which I follow for making videos. 

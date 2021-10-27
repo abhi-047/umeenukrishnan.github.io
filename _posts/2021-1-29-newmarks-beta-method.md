@@ -2,6 +2,9 @@
 layout: post
 title: "Newmark's Beta Method"
 categories: Mathematics
+tag: 
+  - Mathematics
+---
 ---
 
 In Newmark's Beta method there are two special cases:
