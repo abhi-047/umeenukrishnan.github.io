@@ -2,6 +2,8 @@
 layout: post
 title: "How to create mesh for a plate with a hole in Gmsh "
 categories: Gmsh
+tag: 
+  - Gmsh
 ---
 
 Problem statement:

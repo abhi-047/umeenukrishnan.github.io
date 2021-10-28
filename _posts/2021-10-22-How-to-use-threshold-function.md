@@ -2,6 +2,8 @@
 layout: post
 title: "How to use threshold for local meshing in Gmsh"
 categories: Gmsh
+tag: 
+  - Gmsh
 ---
 
 Mesh refinement is **an important tool for editing finite element meshes** in order to increase the accuracy of the solution. In regions where stress is concentrated or in the critical regions the elements have to be refined locally. In such cases we need to use this function. In this post I will consider the plate with a hole problem, which I had explained the modeling and meshing part in the previous post. 

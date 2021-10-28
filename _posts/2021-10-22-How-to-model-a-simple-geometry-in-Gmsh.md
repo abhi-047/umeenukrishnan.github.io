@@ -2,6 +2,8 @@
 layout: post
 title: "How to model a simple geometry in Gmsh"
 categories: Gmsh
+tag: 
+  - Gmsh
 ---
 
 Meshing is the most important part of the finite element analysis. We use Gmsh as a tool for  mesh generation. Gmsh is a open- source 3D finite element mesh generator with a built-in CAD engine and post-processor. It is very user friendly and has a very good visualisation capabilities. 
