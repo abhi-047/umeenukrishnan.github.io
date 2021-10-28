@@ -10,7 +10,7 @@ In this post I will explain simple steps which you can adopt to model and mesh a
 
 Steps:
 
-* Create the layout of the geometry with proper dimensioning and coordinates. In this I will be considering the following geometry.
+* Create the layout of the geometry with proper dimensioning and coordinates. In this I will be considering the a rectangular geometry with dimension L = 2 and B = 1. 
 
 * Create points as per your geometry. For this go to Modules --- Geometry --- Elementary entities --- Add --- Point. You will see a dialogue box opened, just enter the coordinates of each point and click on add.
 * After creating all point next step is to join all those point using line to form a complete geometry. For this Go to Modules --- Geometry --- Elementary entities --- Add --- Line. Follow the instructions shown on the screen, i.e you have to select the start and end point of the line. 
@@ -21,3 +21,22 @@ Steps:
 
 The file generated here will be saved in .msh format, which you can further convert into xdmf with the help of "Meshio" and you are good to import this mesh file in FEniCS. 
 
+Script is given below :
+
+```python
+Point(1) = {0, 0, 0, 1.0};
+Point(2) = {2, 0, 0, 1.0};
+Point(3) = {2, 1, 0, 1.0};
+Point(4) = {0, 1, 0, 1.0};
+
+Line(1) = {1, 2};
+Line(2) = {2, 3};
+Line(3) = {3, 4};
+Line(4) = {4, 1};
+
+Curve Loop(1) = {3, 4, 1, 2};
+Plane Surface(1) = {1};
+
+Physical Surface("domain", 5) = {1};
+
+```
