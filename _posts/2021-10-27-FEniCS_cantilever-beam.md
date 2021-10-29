@@ -54,6 +54,7 @@ mf.set_all(0)
 right.mark(mf, 2)
 ds = Measure("ds")(subdomain_data=mf)
 
+V = VectorFunctionSpace(mesh, 'Lagrange', degree=2)
 bc_left = DirichletBC(V, Constant((0.,0.)), left)
 bc_right = DirichletBC(V, Constant((0.,-5)), right, method = "pointwise")
 
@@ -63,7 +64,6 @@ bc = [bc_left, bc_right]
 Define the variational form 
 
 ```python
-V = VectorFunctionSpace(mesh, 'Lagrange', degree=2)
 v = TrialFunction(V)
 u = TestFunction(V)
 a = inner(sigma(v), eps(u))*dx
@@ -73,11 +73,11 @@ l = inner(f, u)*dx
 Solve 
 
 ```python
-u = Function(V, name="Displacement")
-solve(a == l, u, bc)
-plot(u)
-print(u.vector()[:])
-print(u.vector().max())
+u_sol = Function(V, name="Displacement")
+solve(a == l, u_sol, bc)
+plot(u_sol)
+print(u_sol.vector()[:])
+print(u_sol.vector().max())
 ```
 
 ![u_disp](/Users/meenu/Codes/umeenukrishnan.github.io/assets/images/u_disp.png)
