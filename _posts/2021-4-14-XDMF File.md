@@ -20,8 +20,8 @@ When we have more than one variable to save in the same xdmf file, we need to sh
 
 ```python
 xdmf.parameters["flush_output"] = True
-xdmf.parameters["functions_share_mesh"] = False
-xdmf.parameters["rewrite_function_mesh"] = True
+xdmf.parameters["functions_share_mesh"] = True
+xdmf.parameters["rewrite_function_mesh"] = False
 ```
 
 Then use the following command to write the data in the file:
