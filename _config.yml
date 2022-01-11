@@ -1,6 +1,6 @@
 title: abhishek # The title of the blog
 author: abhuishek # Your name 
-email: abhi # your email shown in the footer
+email: a_kumar1@ce.iitr.ac.in # your email shown in the footer
 
 url: "https://abhi-047.github.io" # this is your site's root address.
 
@@ -22,10 +22,9 @@ moving:
 
   # generate social links in about page.
   social_links:
-    twitter: meenu1309
-    github:  umeenukrishnan
-    scholar: hjyZvdgAAAAJ
-    researchgate: Meenu_Krishnan
+    github:  abhi-047
+    # scholar: hjyZvdgAAAAJ
+    # researchgate: Meenu_Krishnan
     # rss: RSS
     # dribbble: 
     # facebook: huangyz0918
